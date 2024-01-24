@@ -1,1 +1,73 @@
 /*  your css code here. If applicable */
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        
+        justify-content:flex;
+            height:7.00vh;
+            background-color: grey;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .modal-content {
+            padding: 20px;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+        width:600px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+			background-color: green;
+        }
+
+        .modal-header h2 {
+            margin: 0;
+        }
+
+        .close-modal {
+            cursor: pointer;
+            background: none;
+            border: none;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .modal-body p {
+            margin: 0;
+        }
+
+        /* Style for the button that opens the modal */
+        #openModal {
+            cursor: pointer;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+   
+   
+
+
+
+
+
+
+
+
